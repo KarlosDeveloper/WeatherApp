@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top-section">
+            <h2 class="city-name">Katowice</h2>
+            <p class="current-date special-text">Monday, 10 August</p>
+        </div>
+        <div class="weather-boxs">
+
+            <div class="weather__box weather__box--left">
+
+                <img src="./dist/img/cloud.png" alt="Ikonka obecnej pogody">
+
+                <div class="weather__box-current-temp">
+                    <h3 class="current-temp">21°</h3>
+                    <p class="current-description-weather special-text">Monstly sunny</p>
+                </div>
+
+            </div>
+
+            <div class="weather__box weather__box--right">
+
+                <div class="weather__box-high-temp">
+                    <h3 class="high-temp"></h3>
+                    <p class="current-description-high special-text">High</p>
+                </div>
+
+                <div class="weather__box-wind">
+                    <h3 class="wind"></h3>
+                    <p class="current-description-wind special-text">Wind</p>
+                </div>
+
+                <div class="weather-box-sunrise">
+                    <h3 class="sunrise"></h3>
+                    <p class="current-description-sunrise special-text">Sunrise</p>
+                </div>
+
+                <div class="weather-box-low-temp">
+                    <h3 class="high-temp"></h3>
+                    <p class="current-description-low special-text">Low</p>
+                </div>
+
+                <div class="weather-box-humidity">
+                    <h3 class="humidity"></h3>
+                    <p class="current-description-humidity special-text">Humidity</p>
+                </div>
+
+                <div class="weather-box-sunset">
+                    <h3 class="sunset"></h3>
+                    <p class="current-description-humidity special-text">Sunset</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="./dist/js/main.min.js"></script>
+</body>
+
+</html>
