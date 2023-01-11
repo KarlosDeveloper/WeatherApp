@@ -17,7 +17,7 @@
         </div>
         <div class="weather-boxs">
 
-            <div class="weather__box weather__box--left">
+            <div class="weather__box weather__box--one">
 
                 <img src="./dist/img/cloud.png" alt="Ikonka obecnej pogody">
 
@@ -28,7 +28,7 @@
 
             </div>
 
-            <div class="weather__box weather__box--right">
+            <div class="weather__box weather__box--two">
 
                 <div class="weather__box-high-temp item">
                     <h3 class="high-temp">23°</h3>
@@ -61,6 +61,11 @@
                 </div>
 
             </div>
+        </div>
+        <div class="bottom-section">
+            <input type="text" name="city" class="check-city" placeholder="write the name of the city">
+            <!-- <p class="warning">Wpisz poprawna nazwe miasta</p> -->
+            <button type="submit" class="send-btn">Send</button>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
